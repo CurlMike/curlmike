@@ -1,7 +1,7 @@
 {
   "homepage": "https://curlmike.github.io/curlmike",
   "name": "curlmike-io",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

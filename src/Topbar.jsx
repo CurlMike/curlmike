@@ -5,7 +5,7 @@ function Topbar({ selected, setSelected }) {
     return (
         <div className="Topbar mt-6 px-1 pt-1" id="topbar">
             <div className="flex justify-around items-center my-2">
-                <div className="flex justify-center items-center">
+                <div className="Logo flex justify-center items-center">
                     <img src={vaporSun} alt="Vapor Sun" className="flex w-12 h-12"></img>
                     <h3 className="text-3xl font-semibold bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">CurlMike</h3>
                 </div>

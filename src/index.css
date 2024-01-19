@@ -14,8 +14,8 @@ body {
 
 .header {
   position: relative;
-  height: 100vh;
   width: 100%;
+  padding: 2.5rem;
 }
 
 .vapor-glow {
@@ -65,6 +65,33 @@ body {
 
 .WikiContainer {
   width: 60%;
+  max-height: 95vh;
+  overflow-y: auto;
+}
+
+.WikiText .about img {
+  float: right;
+}
+
+@media screen and (max-width: 950px ) {
+  .header .headerImg img { display: none; }
+  .header .images img {
+    width: 12rem;
+    height: 12rem;
+  }
+}
+
+@media screen and ( max-width: 600px ){
+  .header img { display: none; }
+  .header {
+    padding: 1rem;
+  }
+  .WikiContainer {
+    width: 90%;
+  }
+  .WikiContainer img { display: none; }
+  .Topbar .Logo {display: none;}
+  .projects li a p {display: none;}
 }
 
 

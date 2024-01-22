@@ -84,7 +84,7 @@ body {
 @media screen and ( max-width: 600px ){
   .header img { display: none; }
   .header {
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .WikiContainer {
     width: 90%;

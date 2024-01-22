@@ -19,11 +19,11 @@ function Header() {
                         </div>
                         <img src={gameboy} alt="Vapor gameboy" className="w-48 h-48"></img>
                     </div>
-                    <div className="text-center">
-                        <button className="text-white border-4 border-purple-400 rounded-full bg-gradient-to-r from-blue-400 to-pink-500 p-6 text-2xl font-bold hover:cursor-pointer vapor-glow"
+                    <div className="text-center scroll-down">
+                        <button className="text-white border-4 border-purple-400 rounded-full bg-gradient-to-r from-blue-400 to-pink-500 lg:p-6 p-4 md:p-5 text-xl lg:text-2xl font-bold hover:cursor-pointer vapor-glow"
                         onClick={() => document.getElementById("topbar").scrollIntoView({ behavior: 'smooth' })}>Click here to see more!</button>
-                        <h2 className="text-3xl text-yellow-300 font-semibold mt-8">Or instead,</h2>
-                        <h1 className="text-5xl text-blue-500 font-semibold mt-8 mb-8">&darr; Scroll Down to view more &darr;</h1>
+                        <h2 className="text-2xl md:text-3xl text-yellow-300 font-semibold mt-8">Or instead,</h2>
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl text-blue-500 font-semibold mt-8 mb-8">&darr; Scroll Down to view more &darr;</h1>
                     </div>
                     <div className="images flex p-2">
                         <img src={pixel1} className="ml-auto mr-8 w-96 h-96 opacity-75 mb-12" alt="pixel1-image"></img>
